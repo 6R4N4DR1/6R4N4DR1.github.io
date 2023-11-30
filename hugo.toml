@@ -1,0 +1,23 @@
+baseURL = 'https://6r4n4dr1.github.io/'
+languageCode = 'en-us'
+title = 'blog-adrianysara'
+theme = 'hugo-arogya-theme'
+
+[permalinks]
+post = "/:year/:month/:day/:slug"
+
+[params]
+avatar = "perfil.jpg"
+author = "Sara y Adrian"
+description = "Sitio de jardineria explicado por principiantes para principiantes"
+
+[params.social]
+Github = "6R4N4DR1"
+email = "adrianmv2507@gmail.com"
+
+## Main Menu
+[[menu.main]]
+name = "blog jardineria"
+weight = 100
+identifier = "blog jardineria"
+url = "/blogjardineria/"
